@@ -1,0 +1,47 @@
+body {
+ font-family: 'Open Sans', sans-serif;
+ font-size: 18px;
+ font-weight: 400;
+ text-decoration: none;
+ background-color: #FFC0CB;
+ transition: background-color 0.5s ease;
+ }
+
+ body:hover {
+ background-color: #87CEEB;
+ }
+
+ #navbar {
+ background-color: #FFC0CB;
+ transition: background-color 0.5s ease;
+ }
+
+ #navbar:hover {
+ background-color: #87CEEB;
+ }
+
+ .jumbotron {
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ background-color: #FFC0CB;
+ color: #333;
+ }
+
+ .jumbotron h1 {
+ font-size: 5rem;
+ margin-bottom: 1rem;
+ }
+
+ .jumbotron p {
+ font-size: 2rem;
+ margin-bottom: 3rem;
+ }
+
+ .container {
+ padding: 3rem 1.5rem;
+ background-color: #FFC0CB;
+ }
+
+ .container h2 {
+ font-size: 3rem
